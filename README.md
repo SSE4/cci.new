@@ -6,7 +6,9 @@ it also might be useful to run [cci.cmake_file_api](https://github.com/SSE4/cci.
 
 ## installtion
 
-TODO : pip
+```
+$ pip install cci.new --upgrade
+```
 
 ## extracted metadata
 
@@ -40,6 +42,3 @@ maybe it's possible to somehow don't require GITHUB_TOKEN environment variable?
 could it be [Github Action](https://github.com/features/actions) or [GitHub App](https://docs.github.com/en/developers/apps/about-apps)?
 or maybe just simple Web Form hosted somewhere?
 
-### use GitHub actions to deploy to pip
-
-it would be nice to use `pip install` to get the tool available.
