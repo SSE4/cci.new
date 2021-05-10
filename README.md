@@ -10,6 +10,14 @@ it also might be useful to run [cci.cmake_file_api](https://github.com/SSE4/cci.
 $ pip install cci.new --upgrade
 ```
 
+## usage
+
+run inside your [conan-center-index](https://github.com/conan-io/conan-center-index) fork (within `recipes` sub-directory) against project GitHub URL:
+
+```
+cci.new https://github.com/hyperrealm/libconfig
+```
+
 ## extracted metadata
 
 - latest release (or tag, if there are no releases)
