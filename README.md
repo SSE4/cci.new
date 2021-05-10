@@ -10,6 +10,8 @@ it also might be useful to run [cci.cmake_file_api](https://github.com/SSE4/cci.
 $ pip install cci.new --upgrade
 ```
 
+you will also need a [GitHub API Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token), within `GITHUB_TOKEN` environment variable.
+
 ## usage
 
 run inside your [conan-center-index](https://github.com/conan-io/conan-center-index) fork (within `recipes` sub-directory) against project GitHub URL:
